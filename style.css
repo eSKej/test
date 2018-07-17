@@ -1,4 +1,11 @@
 .main-form {
-   width: 500px;
-   margin: auto;
+   width: auto;
+   margin: 20px;
+}
+
+@media screen and (min-width: 576px) {
+   .main-form {
+      width: 536px;
+      margin: 20px auto;
+   }
 }
